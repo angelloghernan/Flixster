@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories in portrait and landscape mode respectively:
 
-<img src='flixster-portrait.gif' title='Video Walkthrough' width='' alt='Portrait Mode Video Walkthrough' />
+<img src='flixster_portrait.gif' title='Video Walkthrough' width='' alt='Portrait Mode Video Walkthrough' />
 
 <img src='flixster-landscape.gif' title='Video Walkthrough' width='' alt='Landscape Mode Video Walkthrough' />
 
