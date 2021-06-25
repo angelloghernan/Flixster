@@ -24,7 +24,7 @@ The following **stretch** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] Shows reviews, along with the user who made them, the date it was posted, and their profile picture below the movie details
+* [x] Shows reviews, along with the user who made them, the date it was posted, their profile picture, and star rating (if applicable) below the movie details
 
 ## Video Walkthrough
 
