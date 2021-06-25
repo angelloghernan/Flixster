@@ -22,11 +22,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="0dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="0dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:text="Fast Furious Presents: Hobbs Shaw"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Movie Title"
         android:textSize="24sp" />
 
     <TextView
@@ -39,7 +41,7 @@
         android:layout_toEndOf="@+id/ivPoster"
         android:ellipsize="end"
         android:maxLines="9"
-        android:text="Description text placeholder blah etc etc etc etc" />
+        android:text="Lorem ipsum dolor sit amet" />
 
     <View
         android:layout_width="match_parent"

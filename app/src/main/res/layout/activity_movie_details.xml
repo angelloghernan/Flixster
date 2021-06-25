@@ -5,11 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="0dp"
+    android:nestedScrollingEnabled="false"
     tools:context=".MovieDetailsActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
         android:orientation="vertical">
 
         <TextView
@@ -17,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="191dp"
-            android:layout_marginEnd="-7dp"
+            android:layout_marginEnd="0dp"
             android:text="Placeholder Text"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 

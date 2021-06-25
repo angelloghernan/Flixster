@@ -92,6 +92,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
             if (context.getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
                 Glide.with(context)
                         .load(movie.getBackdropPath())
+                        .transform(new CenterInside(), new RoundedCorners(24))
                         .placeholder(R.drawable.placeholder_backdrop)
                         .into(ivPoster);
             }
