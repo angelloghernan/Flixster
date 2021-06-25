@@ -23,7 +23,8 @@ import okhttp3.Headers;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=abfdb5b3b4fafbbec360f10a7c9d08b0";
+    // Note: Attempted to use secrets.xml for api key but it would not work, with more time I would try to fix this
+    public static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=" + "abfdb5b3b4fafbbec360f10a7c9d08b0";
     public static final String TAG = "MainActivity";
 
     List<Movie> movies;

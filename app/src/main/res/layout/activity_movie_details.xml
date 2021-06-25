@@ -14,11 +14,19 @@
         android:nestedScrollingEnabled="false"
         android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/ivDetailsPoster"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onClick"
+            tools:srcCompat="@tools:sample/avatars" />
+
         <TextView
             android:id="@+id/tvDetailsTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="191dp"
+            android:layout_marginTop="5dp"
             android:layout_marginEnd="0dp"
             android:text="Placeholder Text"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
@@ -38,7 +46,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="0dp"
             android:layout_marginTop="0dp"
-            android:maxLines="6"
             android:text="Placeholder text. Lorem ipsum dolor sit amet" />
 
         <TextView
@@ -55,6 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp" />
+
     </LinearLayout>
 
 </ScrollView>

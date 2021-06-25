@@ -78,11 +78,6 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
             itemView.setOnClickListener(this);
         }
 
-        /* Glide.with(context).load(imageUrl).
-                        transform(new CenterInside(), new RoundedCorners(24)).
-                        placeholder(R.drawable.movie_placeholder_vertical).
-                        into(ivPoster); */
-
         public void bind(Movie movie) {
             tvTitle.setText(movie.getTitle());
             tvOverview.setText(movie.getOverview());

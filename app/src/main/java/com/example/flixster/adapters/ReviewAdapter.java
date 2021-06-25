@@ -71,6 +71,7 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ViewHolder
             tvReviewAuthor.setText(review.getAuthorUsername());
             tvReviewDate.setText(review.getCreationDate());
             tvReviewContent.setText(review.getContent());
+            String hold = review.getContent();
             rbReviewRating.setRating(review.getRating().floatValue() / 2.0f);
             Glide.with(context)
                     .load(review.getAvatarPath())
