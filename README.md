@@ -43,7 +43,7 @@ GIFs created with [Giphy Capture](https://giphy.com/apps/giphycapture).
 - Not necessarily a challenge with the app, but Kap does not function well on my computer (likely because it is a work laptop). 
 The rest of the process went smoothly.
 
-- Only made minor changes to UI -- added a seperator between items in recycler view (main activity)
+- Only made minor changes to UI -- added a seperator between items in recycler view (main activity) and made it so that the text and title would fit inside neatly.
 
 ## Open-source libraries used
 
