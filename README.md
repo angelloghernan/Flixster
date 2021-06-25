@@ -38,7 +38,7 @@ GIFs created with [Giphy Capture](https://giphy.com/apps/giphycapture).
 
 ## Notes
 
-- I attempted to add a "View More" and "Show Less" button to my additonal feature (reviews section) due to their length, but was struggled and was unable to (likely will learn how in the future).
+- I attempted to add a "View More" and "Show Less" button to my additonal feature (reviews section) due to their length, but struggled and was unable to (likely will learn how in the future).
 
 - Not necessarily a challenge with the app, but Kap does not function well on my computer (likely because it is a work laptop). 
 The rest of the process went smoothly.
